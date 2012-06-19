@@ -7,7 +7,8 @@
 #Results must be in tabular format (-m 8 or -m 6)
 #By: Raquel Dias and Marcelo V. Neves
 #Contact: raquel.dias.001@acad.pucrs.br
-#Pontifical University of Rio Grande do Sul - Brazil
+#Pontifical Catholic University of Rio Grande do Sul - Brazil
+#High Performance Laboratory (LAD PUCRS)
 #
 ############################################################
 

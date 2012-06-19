@@ -1,13 +1,38 @@
 
-#####################NCBI-taxcollector######################
+##################   NCBI-taxcollector   ###################
 #
-#Attaches taxonomic information to BLAST and SOAP2 results
+#Collects and Attaches NCBI taxonomy information to BLAST and SOAP2 results
 #Results must be in tabular format (-m 8 or -m 6)
 #By: Raquel Dias and Marcelo V. Neves
 #Contact: raquel.dias.001@acad.pucrs.br
-#Pontifical University of Rio Grande do Sul - Brazil
+#Pontifical Catholic University of Rio Grande do Sul - Brazil
+#High Performance Laboratory (LAD PUCRS)
 #
 ############################################################
+
+NCBI-taxcollector
+
+
+DESCRIPTION 
+
+A Tool for parsing sequence search results and collecting information on NCBI taxonomic data
+
+Project home page: https://github.com/Bioinfo-Tools/NCBI-taxcollector
+
+Operating system(s):Platform independent
+
+Programming language: Perl and C
+
+License: GNU GPL
+
+
+REQUIREMENTS
+
+- Perl 5 or higher
+- C compiler
+
+
+INSTALL
 
 Usage:
 
