@@ -34,6 +34,9 @@ REQUIREMENTS
 
 INSTALL
 
+
+
+
 Usage:
 
 perl taxcollector_ncbi-0.01.pl -f Classification results (tabular text file) -o Output file
