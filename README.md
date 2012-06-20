@@ -1,10 +1,15 @@
 #NCBI-taxcollector
 
-Collects and Attaches NCBI taxonomy information to BLAST and SOAP2 results
+Collects and Attaches NCBI taxonomy information to BLAST and SOAP2 results.
+
 Results must be in tabular format (-m 8 or -m 6)
+
 By: Raquel Dias and Marcelo V. Neves
+
 Contact: raquel.dias.001@acad.pucrs.br
+
 Pontifical Catholic University of Rio Grande do Sul - Brazil
+
 High Performance Laboratory (LAD PUCRS)
 
 
