@@ -73,7 +73,6 @@ $ perl taxcollector_ncbi-0.01.pl -f Classification results (tabular text file) -
 
 #EXAMPLES
 
-
 - Input example:
 
             S001416244	gi|309261160|gb|HQ246245.1|	81.87	1186	148	64	226	1375	128	1282	0.0	 937
