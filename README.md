@@ -57,10 +57,12 @@ $ chmod 777 tax_class
 - Download NCBI taxonomy databases
 
 $ wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+$ wget ftp://ftp.ncbi.nih.gov/pub/taxonomy//gi_taxid_nucl.dmp.gz
 
 - Extract the databases
 
 $ tar -xvf taxdump.tar.gz
+$ tar -xvf gi_taxid_nucl.dmp.gz
 
 Convert dump files to binary
 
