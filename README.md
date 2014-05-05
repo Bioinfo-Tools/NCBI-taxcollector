@@ -70,7 +70,7 @@ $ wget ftp://ftp.ncbi.nih.gov/pub/taxonomy//gi_taxid_nucl.dmp.gz
 
 $ tar -xvf taxdump.tar.gz
 
-$ tar -xvf gi_taxid_nucl.dmp.gz
+$ gunzip gi_taxid_nucl.dmp.gz
 
 Convert dump files to binary
 
@@ -95,4 +95,5 @@ $ perl taxcollector_ncbi-0.01.pl -f Classification results (tabular text file) -
             S001416244	[0]Bacteria;[1]Proteobacteria;[2]Alphaproteobacteria;[3]Rhodospirillales;[4]Acetobacteraceae;[5]Roseomonas;[6]Roseomonas_sp._6A18S6;		81.87	1186	148	64	226	1375	128	1282	0.0	 937
             S001416244	[0]Bacteria;[5]uncultured_bacterium;[6]uncultured_bacterium;	78.63	1535	218	99	1	1474	1	1486	0.0	 917
             S001416244	[0]Bacteria;[1]Firmicutes;[2]Bacilli;[3]Bacillales;[5]Exiguobacterium;[6]Exiguobacterium_sp._8A18S8;		81.00	1216	137	75	247	1400	213	1396	0.0	 880
+
 
