@@ -36,7 +36,7 @@ License: GNU GPL
 
 - Download NCBI-taxcollector main functions
 
-$ wget wget https://github.com/Bioinfo-Tools/ncbitc_functions/tarball/master
+$ wget https://github.com/Bioinfo-Tools/ncbitc_functions/tarball/master
 
 - Extract
 
@@ -44,11 +44,17 @@ $ tar -xvf master
 
 - Go inside the extracted folder
 
+$ cd master
+
 - Compile
 
 $ make all
 
 - Copy the binary named "tax_class" to the same dir as taxcollector_ncbi-0.01.pl 
+
+$ cp tax_class ../
+
+$ cd .. 
 
 - Change the exec permissions
 
@@ -57,11 +63,13 @@ $ chmod 777 tax_class
 - Download NCBI taxonomy databases
 
 $ wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+
 $ wget ftp://ftp.ncbi.nih.gov/pub/taxonomy//gi_taxid_nucl.dmp.gz
 
 - Extract the databases
 
 $ tar -xvf taxdump.tar.gz
+
 $ tar -xvf gi_taxid_nucl.dmp.gz
 
 Convert dump files to binary
