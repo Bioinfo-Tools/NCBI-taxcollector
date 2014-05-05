@@ -44,6 +44,10 @@ $ tar -xvf master
 
 - Go inside the extracted folder
 
+$ rm master 
+
+$ mv Bioinfo-Tools-ncbitc_* master
+
 $ cd master
 
 - Compile
